@@ -1,0 +1,48 @@
+LinkedList:
+
+Tiempo de ejecución: Relativamente alto.
+Consumo de memoria: Moderado.
+Relación: Las listas enlazadas tienen tiempos de acceso más largos debido a la necesidad de recorrer los nodos secuencialmente. Esto explica su alto tiempo de ejecución. El consumo de memoria es moderado porque cada nodo contiene referencias a otros nodos además de los datos.
+ArrayList:
+
+Tiempo de ejecución: Mejor que LinkedList.
+Consumo de memoria: Similar a LinkedList en la primera ejecución, muy bajo en la segunda.
+Relación: ArrayList ofrece mejor rendimiento en tiempo de ejecución porque permite el acceso directo a los elementos mediante índices. El consumo de memoria es eficiente, especialmente en la segunda ejecución, porque utiliza un arreglo subyacente.
+Trie:
+
+Tiempo de ejecución: Muy bajo.
+Consumo de memoria: Alto.
+Relación: Los tries son muy eficientes para búsquedas rápidas debido a su estructura en árbol, donde cada nodo representa un carácter. Sin embargo, esta estructura requiere más memoria para almacenar todos los nodos y referencias.
+HashMap:
+
+Tiempo de ejecución: Muy bajo.
+Consumo de memoria: Moderado.
+Relación: HashMap proporciona acceso rápido a los elementos mediante el uso de funciones hash, lo que reduce el tiempo de ejecución. El consumo de memoria es moderado debido a la sobrecarga de las tablas hash.
+TreeMap:
+
+Tiempo de ejecución: Intermedio.
+Consumo de memoria: Moderado.
+Relación: TreeMap ofrece un rendimiento intermedio porque mantiene los elementos ordenados, lo que requiere más operaciones durante la inserción y búsqueda en comparación con HashMap. El consumo de memoria es similar al de HashMap debido a la necesidad de almacenar referencias adicionales para mantener el orden.
+Relación General:
+Estructuras de Acceso Directo (ArrayList, HashMap):
+
+Tiempo de ejecución: Bajo.
+Consumo de memoria: Moderado.
+Relación: Ofrecen tiempos de acceso rápidos debido a su estructura interna, pero esto puede venir con un consumo de memoria adicional debido a la sobrecarga de administración interna.
+Estructuras de Acceso Secuencial (LinkedList):
+
+Tiempo de ejecución: Alto.
+Consumo de memoria: Moderado.
+Relación: Tienen tiempos de acceso más lentos debido a la necesidad de recorrer elementos secuencialmente, con un consumo de memoria adicional debido a las referencias a nodos.
+Estructuras de Árbol (Trie, TreeMap):
+
+Trie:
+Tiempo de ejecución: Muy bajo.
+Consumo de memoria: Alto.
+Relación: Optimizan las búsquedas a costa de un mayor consumo de memoria.
+TreeMap:
+Tiempo de ejecución: Intermedio.
+Consumo de memoria: Moderado.
+Relación: Mantienen los datos ordenados, lo que requiere más tiempo y memoria en comparación con estructuras de acceso directo como HashMap.
+En resumen, existe una compensación entre el tiempo de ejecución y el consumo de memoria. Estructuras que optimizan la velocidad de búsqueda y acceso tienden a consumir más memoria,
+mientras que estructuras con menor consumo de memoria pueden tener tiempos de acceso más largos. La elección de la estructura de datos adecuada dependerá del contexto y de las necesidades específicas de rendimiento y eficiencia en memoria.
