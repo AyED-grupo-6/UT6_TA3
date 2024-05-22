@@ -16,3 +16,9 @@ MedicionBuscarArrayList,7.421867055918718,3.770483809431108
 MedicionBuscarTrie,6.942692457901963,5.132870986587608
 MedicionBuscarHashMap,6.510464577854886,3.9252605095194353
 MedicionBuscarTreeMap,7.07487858271586,3.9253636673541017
+algoritmo,tiempo,memoria
+MedicionBuscarLinkedList,67842200,5885
+MedicionBuscarArrayList,46466400,5895
+MedicionBuscarTrie,13967600,0
+MedicionBuscarHashMap,4257000,8419
+MedicionBuscarTreeMap,13495700,8421
