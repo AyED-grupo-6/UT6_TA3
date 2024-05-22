@@ -1,7 +1,7 @@
+import java.io.Serializable;
 import java.util.LinkedList;
-import java.util.TreeMap;
 
-public class MedicionPredecirLinkedList  extends Medible {
+public class MedicionPredecirLinkedList extends Medible {
 
     PredecirConLinkedList linkedList;
 
@@ -22,6 +22,6 @@ public class MedicionPredecirLinkedList  extends Medible {
 
     @Override
     public Object getObjetoAMedirMemoria() {
-        return linkedList;
+        return linkedList.palabras;
     }
 }

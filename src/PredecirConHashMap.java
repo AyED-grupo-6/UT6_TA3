@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 public class PredecirConHashMap {
-    private HashMap<String, String> palabras;
+    public HashMap<String, String> palabras;
 
     public PredecirConHashMap (HashMap<String, String> palabras) {
         this.palabras = palabras;

@@ -1,8 +1,8 @@
-
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.TreeMap;
 
-public class MedicionPredecirHashMap  extends Medible {
+public class MedicionPredecirHashMap extends Medible {
 
     PredecirConHashMap hashMap;
 
@@ -23,7 +23,6 @@ public class MedicionPredecirHashMap  extends Medible {
 
     @Override
     public Object getObjetoAMedirMemoria() {
-        return hashMap;
+        return hashMap.palabras;
     }
 }
- 

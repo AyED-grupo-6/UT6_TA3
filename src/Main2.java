@@ -27,7 +27,7 @@ public class Main2 {
 
         }
 
-        Medible[] medibles = new Medible[5];
+        Medible[] medibles = new Medible[3];
         int i = 0;
         medibles[i++] = new MedicionPredecirLinkedList(linkedList);
 
@@ -37,7 +37,8 @@ public class Main2 {
         Medicion mi;
         i = 0;
         Object[] params = { REPETICIONES, prefijosPredecir };
-        String[] lineas = new String[6];
+        String[] lineas = new String[4
+        ];
         lineas[i++] = "algoritmo,tiempo,memoria";
         for (Medible m : medibles) {
             mi = m.medir(params);

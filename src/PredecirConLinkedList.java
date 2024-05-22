@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 
 public class PredecirConLinkedList {
-    private LinkedList<String> palabras;
+    public LinkedList<String> palabras;
 
     public PredecirConLinkedList(LinkedList<String> palabras) {
         this.palabras = palabras;
